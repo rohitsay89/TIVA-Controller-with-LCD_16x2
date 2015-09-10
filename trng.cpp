@@ -1,4 +1,6 @@
-/*#include <stdio.h>
+/*
+ * ================================================================================================================
+#include <stdio.h>
 #include <stdlib.h>
 void fun(int *p1, int *p2);
 int main()
@@ -20,7 +22,7 @@ void fun(int *p1, int *p2)
 	*p1 = *p2;
 	*p2 = temp;
 }
-
+================================================================================================================
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -61,9 +63,8 @@ char check(int *day, int *mnth, int *year)
 			return 'N';
 	else
 		return 'N';
-
-}*/
-
+}
+================================================================================================================
 #include <stdio.h>
 #include <stdbool.h>
 
@@ -168,3 +169,75 @@ void hexx(int *a)
 		printf("The Hex value of h[%d] is : %X \n", i, h[i]);
 	}
 }
+=======================================================================================================================
+*/
+
+/*
+* Write a program to read 5 digit number & evaluate the sum of all its even & odd locations print separatly
+		12345 --> 1+3+5
+		2+4 --> ?
+		Then reverse the same number & check for palindrome
+		rev == original
+		Also count numbef of odd & even digits in the number
+
+
+#include <stdio.h>
+void reverse(int , int ,int , int ,int );
+int main()
+{
+	int num = 0;
+	int one = 0, two = 0, three = 0, four = 0, five = 0;
+	printf(" Enter a five digit number : \n");
+	scanf("%d", &num);
+	one = num /10000;
+	num = num % 10000;
+
+	two = num /1000;
+	num = num % 1000;
+
+	three = num /100;
+	num = num % 100;
+
+	four = num /10;
+	num = num % 10;
+
+	five = num /1;
+	num = num % 1;
+
+	printf("The five digits are as follows: \n %d \n %d \n %d \n %d \n %d \n ", one, two, three, four, five);
+
+	reverse(one, two, three, four, five);
+
+	return 0;
+}
+
+void reverse(int a,int b,int c,int d,int e)
+{
+	int num = 0;
+	num = a*1+b*10+c*100+d*1000+e*10000;
+
+	printf("The reverse of the number is : %d \n ", num);
+}
+=================================================================================================================================
+*/
+
+/*
+ *
+	Write a program to implement "Base conversion calculator" which need to perform following operations
+	1. Convert decimal to "hex"
+	2. Convert hex to decimal
+	3. Convert Decimal to octal
+	4. Convert octal to Decimal
+	5. Convert octal to hex
+	6. Convert hex to octal
+	7. Convert decimal to binary
+	8. Convert binary to decimal
+	9. Convert binary to hex
+	10. Convert hex to binary
+	11. COnvert binary to octal
+	12. Convert octal to binary
+
+*/
+
+
+
