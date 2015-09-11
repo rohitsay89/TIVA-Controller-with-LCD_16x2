@@ -1,5 +1,6 @@
 /*
  * This code is for chap two exercise prob one
+ * this code is to find the inflated rate of a product after a time pertiod depending on present value and inflation interest
  */
 #include <iostream>
 
@@ -24,3 +25,4 @@ int main()
 	cout << "the estimated price is as follows: \n" << ep; //output the result
 	return 0;
 }
+
