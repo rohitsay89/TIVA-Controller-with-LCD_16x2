@@ -39,8 +39,8 @@
 void OutCmd(unsigned char );
 void LCD_OutChar(unsigned char );
 void LCD_Clear(void); 
-void LCD_OutString(char *pt);
-void LCD_OutUDec(uint32_t n);
+void LCD_OutString(char );
+void LCD_OutUDec(uint32_t );
 void PortFunctionInit(void);
 
 /* ============================ LCD commands function ============================ */
